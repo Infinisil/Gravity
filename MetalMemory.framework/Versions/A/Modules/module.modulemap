@@ -1,0 +1,10 @@
+framework module MetalMemory {
+  umbrella header "MetalMemory.h"
+
+  export *
+  module * { export * }
+}
+
+module MetalMemory.Swift {
+    header "MetalMemory-Swift.h"
+}
